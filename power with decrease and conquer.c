@@ -29,10 +29,10 @@ void delay(int milliseconds) {
 
 int main() {
     int a, n;
-    printf("****************QUICK SORT****************\n");
+    printf("****************DECREASE & CONQUER****************\n");
     printf("AUTHOR: SHASHANK K \n");
     printf("DATE: 17/7/2024\n");
-    printf("******************************************\n\n\n");
+    printf("**********************************************\n\n\n");
     printf("Enter the base (a): ");
     scanf("%d", &a);
     printf("Enter the exponent (n): ");
