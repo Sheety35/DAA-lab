@@ -1,0 +1,22 @@
+QUICKSORT (array A, start, end)     
+{  
+ if (start < end)     
+ {  
+ p = partition(A, start, end)  
+ QUICKSORT (A, start, p - 1)    
+ QUICKSORT (A, p + 1, end)    
+ }   
+}  
+
+PARTITION (array A, start, end)     
+{  
+ pivot ? A[end]     
+ i ? start-1     
+ for j ? start to end -1 {  
+ do if (A[j] < pivot) {    
+ then i ? i + 1     
+ swap A[i] with A[j]   
+  }}   
+ swap A[i+1] with A[end]     
+ return i+1  
+}  
